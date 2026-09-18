@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nexgen — Dev Hub Project</title>
+
+  <!-- FontAwesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- CSS Principal -->
+  <link rel="stylesheet" href="web/css/style.css">
+
+  <!-- Parseur Markdown -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+  <div class="app-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">
+        <i class="fab fa-github logo-icon"></i>
+        <span>Dev Hub Project</span>
+      </div>
+
+      <!-- Navigation Sidebar -->
+      <nav class="nav-menu">
+        <a href="#" class="nav-item active" id="btn-nav-home">
+          <i class="fa-solid fa-house"></i> Accueil
+        </a>
+        <a href="#" class="nav-item" id="btn-nav-repos">
+          <i class="fa-solid fa-code-branch"></i> Mes Repositories
+        </a>
+        <a href="#" class="nav-item" id="btn-nav-stars">
+          <i class="fa-solid fa-star"></i> Mes Stars GitHub
+        </a>
+      </nav>
+
+      <!-- Catégories uniques -->
+      <div class="sidebar-categories">
+        <span class="section-title">CATÉGORIES</span>
+        <div id="categories-list"></div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Profile Header -->
+      <header class="profile-header">
+        <div class="profile-info">
+          <img id="profile-avatar" src="" alt="Avatar" class="avatar">
+          <div class="user-details">
+            <h1 id="profile-name">nexgen999</h1>
+            <span id="profile-handle" class="handle">@nexgen999</span>
+            <p id="profile-bio" class="bio">I love Releases</p>
+            <div class="stats-badges">
+              <span class="badge"><i class="fa-solid fa-code"></i> <strong id="stat-repos">-</strong> Dépôts publics</span>
+              <span class="badge"><i class="fa-solid fa-user-group"></i> <strong id="stat-followers">-</strong> Followers</span>
+            </div>
+          </div>
+        </div>
+        <div id="socials-container" class="social-links"></div>
+      </header>
+
+      <!-- Barre de contrôle : Recherche + Tri + Mode Vue -->
+      <section class="controls-bar">
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="search-input" placeholder="Rechercher un projet, un dépôt, un auteur, un tag...">
+        </div>
+
+        <div class="controls-right">
+          <select id="sort-select" class="sort-dropdown">
+            <option value="default">Tri par défaut</option>
+            <option value="name-asc">Nom (A-Z)</option>
+            <option value="name-desc">Nom (Z-A)</option>
+            <option value="owner-asc">Développeur (A-Z)</option>
+            <option value="stars-desc">Stars (Plus élevé)</option>
+          </select>
+
+          <div class="view-switch-buttons">
+            <button id="btn-view-grid" class="view-btn active" title="Vue Grille">
+              <i class="fa-solid fa-border-all"></i> Grille
+            </button>
+            <button id="btn-view-list" class="view-btn" title="Vue Liste">
+              <i class="fa-solid fa-list"></i> Liste
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Conteneur dynamique des cartes -->
+      <section id="projects-container" class="projects-sections"></section>
+    </main>
+  </div>
+
+  <!-- Modal Preview -->
+  <div id="project-modal" class="modal-overlay">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <h2 id="modal-title" class="modal-title">Chargement...</h2>
+          <div class="modal-stats">
+            <span class="modal-stat-item"><i class="fa-solid fa-star" style="color: #f59e0b;"></i> <span id="modal-stars">-</span></span>
+            <span class="modal-stat-item"><i class="fa-solid fa-code-fork"></i> <span id="modal-forks">-</span></span>
+            <span class="modal-stat-item"><i class="fa-solid fa-tag" style="color: #3b82f6;"></i> <span id="modal-release">Recherche...</span></span>
+          </div>
+        </div>
+        <button class="modal-close-btn" onclick="closeProjectModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="modal-description" class="modal-desc"></div>
+        <div id="modal-readme" class="readme-body">Chargement du README...</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="web/js/app.js"></script>
+</body>
+</html>

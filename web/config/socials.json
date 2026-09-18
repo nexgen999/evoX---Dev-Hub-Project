@@ -1,0 +1,7 @@
+[
+  { "name": "GitHub", "icon": "fa-brands fa-github", "url": "https://github.com" },
+  { "name": "X", "icon": "fa-brands fa-x-twitter", "url": "https://x.com" },
+  { "name": "YouTube", "icon": "fa-brands fa-youtube", "url": "https://youtube.com" },
+  { "name": "Discord", "icon": "fa-brands fa-discord", "url": "https://discord.com" },
+  { "name": "Email", "icon": "fa-solid fa-envelope", "url": "mailto:contact@nexgen.dev" }
+]

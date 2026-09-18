@@ -1,0 +1,23 @@
+{
+  "username": "nexgen999",
+  "handle": "nexgen999",
+  "avatar": "https://avatars.githubusercontent.com/u/2828785?v=4",
+  "bio": "I love Releases",
+  "stats": [
+    {
+      "label": "Dépôts publics",
+      "value": "18",
+      "icon": "fa-solid fa-code"
+    },
+    {
+      "label": "Organisations",
+      "value": "5",
+      "icon": "fa-solid fa-sitemap"
+    },
+    {
+      "label": "Followers",
+      "value": "12",
+      "icon": "fa-solid fa-users"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "xbox-infinity",
+    "title": "Xbox Infinity",
+    "description": "Le futur de la Xbox : console + PC + NAS dans un seul écosystème.",
+    "category": "xbox",
+    "images": [
+      "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600"
+    ],
+    "github": "https://github.com",
+    "demo": "https://github.com",
+    "tags": [
+      "Xbox",
+      "Concept",
+      "Hardware"
+    ]
+  },
+  {
+    "id": "evox-webui",
+    "title": "evoX WebUI Manager",
+    "description": "Interface de gestion unifiée pour vos services web et payloads.",
+    "category": "web",
+    "images": [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600"
+    ],
+    "github": "https://github.com",
+    "demo": "https://github.com",
+    "tags": [
+      "WebUI",
+      "Gestion",
+      "Outils"
+    ]
+  },
+  {
+    "id": "ps5-pldmgr",
+    "title": "PS5 Super PLDMGR",
+    "description": "Auto-updater pour PLDMGR et gestion simple des payloads PS5.",
+    "category": "ps5",
+    "images": [
+      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=600"
+    ],
+    "github": "https://github.com",
+    "demo": "",
+    "tags": [
+      "PS5",
+      "Payloads",
+      "Outils"
+    ]
+  },
+  {
+    "id": "evox-coreos",
+    "title": "evoX-CoreOS",
+    "category": "ps5",
+    "description": "evoX-CoreOS",
+    "images": [
+      "https://github.com/nexgen999/evoX-CoreOS/raw/main/assets/evoX-CoreOS.png"
+    ],
+    "github": "https://github.com/nexgen999/evoX-CoreOS",
+    "demo": "https://nexgen999.github.io/evoX-CoreOS/",
+    "tags": []
+  }
+]
