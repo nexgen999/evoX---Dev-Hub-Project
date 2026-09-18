@@ -1,181 +1,170 @@
-# **Evox Dev Hub Project**
+<div align="center">
 
-**Evox Dev Hub Project** est un hub/portfolio Single Page Application (SPA) ultra-modulaire, moderne et dynamique. Conçu avec une architecture propre, il permet à tout développeur ou créateur de générer sa propre vitrine de projets responsive avec mode Sombre / Dark Theme.
+  <img src="assets/banner.png" alt="Evox Dev Hub Project Banner" width="100%">
 
-L'ensemble du contenu (profil, catégories, projets, réseaux sociaux) est entièrement piloté par des fichiers de configuration **JSON** localisés dans `/web/config/` et modifiables via une interface graphique Python GUI (Tkinter) intuitive.
+  <h1>🚀 Evox Dev Hub Project</h1>
 
-# **✨ Fonctionnalités Principales**
+  <p><b>Evox Dev Hub Project</b> est un hub/portfolio Single Page Application (SPA) ultra-modulaire, moderne et dynamique. Conçu avec une architecture propre, il permet à tout développeur ou créateur de générer sa propre vitrine de projets responsive avec mode Sombre / Dark Theme.</p>
 
-| Fonctionnalité | Description |
-| :---- | :---- |
-| **Interface Dark-Mode** | UI épurée construite en HTML5, CSS moderne avec conteneurs sécurisés et typographie claire. |
-| **Intégration API GitHub** | Récupération en temps réel des métriques utilisateur (dépôts publics, followers) et des favoris sans restriction. |
-| **Recherche & Filtrage** | Filtrage instantané par mots-clés, catégories ou tags, combiné à un sélecteur de tri intelligent. |
-| **Commutateur de Vue** | Basculez instantanément entre la **Vue Grille** et la **Vue Liste**. |
-| **Aperçu Markdown** | Affichage interactif des README.md via conversion automatique des liens et images vers les serveurs Raw. |
-| **Studio de Gestion** | Application desktop Python pour effectuer les opérations CRUD sur les fichiers JSON. |
+  <p>L'ensemble du contenu (profil, catégories, projets, réseaux sociaux) est entièrement piloté par des fichiers de configuration <b>JSON</b> localisés dans <code>/web/config/</code> et modifiables via une interface graphique <b>Python GUI (Tkinter)</b> intuitive.</p>
 
-# **📁 Arborescence du Projet**
+</div>
 
-t  
-Evox-Dev-Hub-Project/  
-├── assets/  
-│   └── banner.png             \# Bannière d'en-tête du README  
-├── index.html                 \# Point d'entrée principal de l'application Web  
-└── web/  
-├── css/  
-│   └── style.css          \# Feuille de style principale (variables, responsive)  
-├── js/  
-│   └── app.js             \# Logique applicative, routeur et appels API GitHub  
-└── config/  
-├── profile.json       \# Métadonnées du profil utilisateur  
-├── categories.json    \# Liste des catégories et icônes  
-├── projects.json      \# Projets mis en avant  
-├── socials.json       \# Liens de réseaux sociaux  
-└── script\_gui\_python.py \# Studio GUI Python Tkinter pour gérer les JSONs
+<hr>
 
-\#\# ⚙️ Explications des Fichiers de Configuration JSON
+<h2>✨ Fonctionnalités Principales</h2>
 
-Tous les fichiers de données se situent dans le dossier \`/web/config/\`.
+<table>
+  <thead>
+    <tr>
+      <th>Fonctionnalité</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Interface Dark-Mode</b></td>
+      <td>UI épurée construite en HTML5, CSS moderne avec conteneurs sécurisés et typographie claire.</td>
+    </tr>
+    <tr>
+      <td><b>Intégration API GitHub</b></td>
+      <td>Récupération en temps réel des métriques utilisateur (dépôts publics, followers) et des favoris sans restriction.</td>
+    </tr>
+    <tr>
+      <td><b>Recherche & Filtrage</b></td>
+      <td>Filtrage instantané par mots-clés, catégories ou tags, combiné à un sélecteur de tri intelligent.</td>
+    </tr>
+    <tr>
+      <td><b>Commutateur de Vue</b></td>
+      <td>Basculez instantanément entre la <b>Vue Grille</b> et la <b>Vue Liste</b>.</td>
+    </tr>
+    <tr>
+      <td><b>Aperçu Markdown</b></td>
+      <td>Affichage interactif des README.md via conversion automatique des liens et images vers les serveurs Raw.</td>
+    </tr>
+    <tr>
+      <td><b>Studio de Gestion</b></td>
+      <td>Application desktop Python pour effectuer les opérations CRUD sur les fichiers JSON.</td>
+    </tr>
+  </tbody>
+</table>
 
-\#\#\# 1\. \`profile.json\`
+<hr>
 
-Définit les informations personnelles affichées sur l'en-tête.
+<h2>📁 Arborescence du Projet</h2>
 
-\`\`\`json
+<pre>
+Evox-Dev-Hub-Project/
+├── assets/
+│   └── banner.png             # Bannière d'en-tête du README
+├── index.html                 # Point d'entrée principal de l'application Web
+└── web/
+    ├── css/
+    │   └── style.css          # Feuille de style principale (variables, responsive)
+    ├── js/
+    │   └── app.js             # Logique applicative, routeur et appels API GitHub
+    └── config/
+        ├── profile.json       # Métadonnées du profil utilisateur
+        ├── categories.json    # Liste des catégories et icônes
+        ├── projects.json      # Projets mis en avant
+        ├── socials.json       # Liens de réseaux sociaux
+        └── script_gui_python.py # Studio GUI Python Tkinter pour gérer les JSONs
+</pre>
 
-{
+<hr>
 
+<h2>⚙️ Explications des Fichiers de Configuration JSON</h2>
+
+<p>Tous les fichiers de données se situent dans le dossier <code>/web/config/</code>.</p>
+
+<h3>1. <code>profile.json</code></h3>
+<p>Définit les informations personnelles affichées sur l'en-tête.</p>
+
+<pre><code>{
   "username": "nexgen999",
-
   "handle": "nexgen999",
-
   "avatar": "",
-
   "bio": "I love Releases & PS5 Homebrew Development",
-
   "stats": {
-
     "repos": 128,
-
     "followers": 69
-
   }
+}</code></pre>
 
-}
+<h3>2. <code>categories.json</code></h3>
+<p>Définit la liste des filtres et les catégories pour classer vos travaux.</p>
 
-## **2\. `categories.json`**
-
-Définit la liste des filtres et les catégories pour classer vos travaux.\[
-
+<pre><code>[
   {
-
     "id": "all",
-
     "name": "Tous",
-
     "icon": "fa-solid fa-border-all"
-
   },
-
   {
-
     "id": "ps5",
-
     "name": "PS5 / PlayStation",
-
     "icon": "fa-brands fa-playstation"
-
   },
-
   {
-
     "id": "web",
-
     "name": "Web / Store",
-
     "icon": "fa-solid fa-globe"
-
   }
+]</code></pre>
 
-\]
+<h3>3. <code>projects.json</code></h3>
+<p>Contient la liste de vos projets locaux personnalisés.</p>
 
-## **3\. `projects.json`**
-
-Contient la liste de vos projets locaux personnalisés.\[
-
+<pre><code>[
   {
-
     "id": "evox-coreos",
-
     "title": "evoX-CoreOS",
-
     "category": "ps5",
-
     "description": "Écosystème automatisé et intelligent pour PlayStation 5.",
-
-    "images": \[\],
-
+    "images": [],
     "github": "",
-
     "demo": "",
-
-    "tags": \["PS5", "Payloads", "Store"\]
-
+    "tags": ["PS5", "Payloads", "Store"]
   }
+]</code></pre>
 
-\]
+<h3>4. <code>socials.json</code></h3>
+<p>Gère les icônes et liens de réseaux sociaux affichés sur le profil.</p>
 
-## **4\. `socials.json`**
-
-Gère les icônes et liens de réseaux sociaux affichés sur le profil.\[
-
+<pre><code>[
   {
-
     "name": "GitHub",
-
     "url": "",
-
     "icon": "fa-brands fa-github"
-
   },
-
   {
-
     "name": "Discord",
-
     "url": "",
-
     "icon": "fa-brands fa-discord"
-
   }
+]</code></pre>
 
-\]
+<hr>
 
-# **🚀 Démarrage Rapide**
+<h2>🚀 Démarrage Rapide</h2>
 
-## **Lancer le Hub Web en local**
+<h3>Lancer le Hub Web en local</h3>
 
-Vous pouvez héberger le projet avec n'importe quel serveur web statique ou via Python :h
+<p>Vous pouvez héberger le projet avec n'importe quel serveur web statique ou via Python :</p>
 
-# **Avec Python 3**
+<pre><code>python -m http.server 8000</code></pre>
 
-python \-m http.server 8000Rendez-vous ensuite sur \`http://localhost:8000\`.
+<p>Rendez-vous ensuite sur <code>http://localhost:8000</code>.</p>
 
-\#\#\# Lancer l'Éditeur Python GUI
+<h3>Lancer l'Éditeur Python GUI</h3>
 
-Pour modifier vos projets et configurations sans toucher au code, utilisez le studio intégré :
+<p>Pour modifier vos projets et configurations sans toucher au code, utilisez le studio intégré :</p>
 
-\`\`\`bash
+<pre><code>cd web/config
+python script_gui_python.py</code></pre>
 
-cd web/config
+<hr>
 
-python script\_gui\_python.py
+<h2>📄 Licence</h2>
 
-# **📄 Licence**
-
-Ce projet est sous licence **MIT**. Vous êtes libre de le forker, de le modifier et de l'adapter pour votre propre portfolio.
-
----
-
-*Dernière mise à jour :* Date
+<p>Ce projet est sous licence <b>MIT</b>. Vous êtes libre de le forker, de le modifier et de l'adapter pour votre propre portfolio.</p>
