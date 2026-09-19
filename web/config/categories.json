@@ -1,7 +1,7 @@
 [
   { "id": "all", "name": "Tous", "icon": "fa-solid fa-border-all" },
+  { "id": "ps5", "name": "PS5 / PlayStation", "icon": "fa-brands fa-playstation" },
   { "id": "xbox", "name": "Xbox / Gaming", "icon": "fa-brands fa-xbox" },
   { "id": "web", "name": "Web / Store", "icon": "fa-solid fa-globe" },
-  { "id": "tools", "name": "Outils / Utilitaires", "icon": "fa-solid fa-wrench" },
-  { "id": "ps5", "name": "PS5 / PlayStation", "icon": "fa-brands fa-playstation" }
+  { "id": "tools", "name": "Outils / Utilitaires", "icon": "fa-solid fa-wrench" }
 ]
