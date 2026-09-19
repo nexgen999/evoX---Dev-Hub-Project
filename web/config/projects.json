@@ -71,5 +71,33 @@
     "tags": [
       "Xbox360"
     ]
+  },
+  {
+    "id": "spectrum-library",
+    "title": "Spectrum-Library",
+    "category": "ps5",
+    "description": "PS5 FreeShop",
+    "images": [
+      "https://private-user-images.githubusercontent.com/26288409/604014095-465fb376-d2ae-4ff2-8d97-c49927e97be6.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODk4NTIyMjIsIm5iZiI6MTc4OTg1MTkyMiwicGF0aCI6Ii8yNjI4ODQwOS82MDQwMTQwOTUtNDY1ZmIzNzYtZDJhZS00ZmYyLThkOTctYzQ5OTI3ZTk3YmU2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA5MTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwOTE5VDIxMDUyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY2NjBkMmJhN2E4YjA0MWI1NmY1ZDcxMzBlNzViM2ZiZDJjY2QzNThjYzc0M2IzZWJmNTJkMjZlZjMxNTk0ODAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.kaXmD-IaojUZ3y1a6Wr5nEwwbQFbSkkh7XG1MrrSYTM"
+    ],
+    "github": "https://github.com/Phoenixx1202/Spectrum-Library",
+    "demo": "",
+    "tags": [
+      "FreeShop"
+    ]
+  },
+  {
+    "id": "pegasus-dl",
+    "title": "Pegasus-DL",
+    "category": "ps5",
+    "description": "FreeShop",
+    "images": [
+      "https://github.com/pegasus-ps5/pegasus-dl/raw/main/assets/pegasus-dl-banner.png"
+    ],
+    "github": "https://github.com/pegasus-ps5/pegasus-dl",
+    "demo": "",
+    "tags": [
+      "FreeShop"
+    ]
   }
 ]
