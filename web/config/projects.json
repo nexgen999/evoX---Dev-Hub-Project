@@ -1,53 +1,5 @@
 [
   {
-    "id": "xbox-infinity",
-    "title": "Xbox Infinity",
-    "description": "Le futur de la Xbox : console + PC + NAS dans un seul écosystème.",
-    "category": "xbox",
-    "images": [
-      "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600"
-    ],
-    "github": "https://github.com",
-    "demo": "https://github.com",
-    "tags": [
-      "Xbox",
-      "Concept",
-      "Hardware"
-    ]
-  },
-  {
-    "id": "evox-webui",
-    "title": "evoX WebUI Manager",
-    "description": "Interface de gestion unifiée pour vos services web et payloads.",
-    "category": "web",
-    "images": [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600"
-    ],
-    "github": "https://github.com",
-    "demo": "https://github.com",
-    "tags": [
-      "WebUI",
-      "Gestion",
-      "Outils"
-    ]
-  },
-  {
-    "id": "ps5-pldmgr",
-    "title": "PS5 Super PLDMGR",
-    "description": "Auto-updater pour PLDMGR et gestion simple des payloads PS5.",
-    "category": "ps5",
-    "images": [
-      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=600"
-    ],
-    "github": "https://github.com",
-    "demo": "",
-    "tags": [
-      "PS5",
-      "Payloads",
-      "Outils"
-    ]
-  },
-  {
     "id": "evox-coreos",
     "title": "evoX-CoreOS",
     "category": "ps5",
@@ -58,5 +10,66 @@
     "github": "https://github.com/nexgen999/evoX-CoreOS",
     "demo": "https://nexgen999.github.io/evoX-CoreOS/",
     "tags": []
+  },
+  {
+    "id": "ps5-super-pldmgr",
+    "title": "PS5 Super PLDMGR",
+    "category": "ps5",
+    "description": "Auto-updater pour PLDMGR et gestion simple des payloads PS5.",
+    "images": [
+      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=600"
+    ],
+    "github": "https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater",
+    "demo": "https://nexgen999.github.io/PS5-Super-PLDMGR-Auto-Updater/evox-store.html",
+    "tags": [
+      "PS5",
+      "Payloads",
+      "Outils"
+    ]
+  },
+  {
+    "id": "zftpd",
+    "title": "zFTPd",
+    "category": "ps5",
+    "description": "Server FTP",
+    "images": [
+      "https://github.com/seregonwar/zftpd/raw/main/assets/zftpd-logo.png"
+    ],
+    "github": "https://github.com/seregonwar/zftpd",
+    "demo": "https://zftpd.com/",
+    "tags": [
+      "PS5",
+      "FTP"
+    ]
+  },
+  {
+    "id": "evox-webui-manager",
+    "title": "evoX WebUI Manager",
+    "category": "web",
+    "description": "Interface de gestion unifiée pour vos services web et payloads.",
+    "images": [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600"
+    ],
+    "github": "https://github.com/nexgen999/evoX-CoreOS-WebUI",
+    "demo": "https://nexgen999.github.io/evoX-CoreOS-WebUI/",
+    "tags": [
+      "WebUI",
+      "Gestion",
+      "Outils"
+    ]
+  },
+  {
+    "id": "xeunshackle-max",
+    "title": "XeUnshackle-Max",
+    "category": "xbox",
+    "description": "XeUnshackle-Max.",
+    "images": [
+      "https://private-user-images.githubusercontent.com/36423169/428096972-af37d4ae-4ff6-4175-8f81-47869ff63ed6.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODk4NTE4MDgsIm5iZiI6MTc4OTg1MTUwOCwicGF0aCI6Ii8zNjQyMzE2OS80MjgwOTY5NzItYWYzN2Q0YWUtNGZmNi00MTc1LThmODEtNDc4NjlmZjYzZWQ2LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA5MTklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwOTE5VDIwNTgyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThjYjliZWE1YWZhMTI2MmJlMzkwOThmZmI4YWM0NmY4ZWUyM2UxMjBiNjkzYzY5ZTVjZDM5MjZmZjZkMTVkY2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmdpZiJ9.MO89yr_5UK64X9TbB4Ma87qGWs2-QvaQKVQdJ2m-Kus"
+    ],
+    "github": "https://github.com/klofi/XeUnshackle-Max",
+    "demo": "https://github.com",
+    "tags": [
+      "Xbox360"
+    ]
   }
 ]
